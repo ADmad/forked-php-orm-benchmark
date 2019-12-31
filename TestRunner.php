@@ -16,4 +16,6 @@ echo $separator;
 passthru('php doctrine_m/TestRunner.php');
 echo $separator;
 passthru('php eloquent/TestRunner.php');
+echo $separator;
+passthru('php cakephp_orm_40/TestRunner.php');
 echo "|-------------------------------------------------------------------------------------------------------|\n";
