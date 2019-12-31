@@ -16,7 +16,7 @@ class CakeOrmTestSuite extends AbstractTestSuite
     /**
      * @var \Cake\ORM\Locator\TableLocator
      */
-    private $locator;
+    protected $locator;
 
     public function initialize()
     {
