@@ -1,0 +1,10 @@
+{
+    "require": {
+        "cakephp/orm": "^4.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
