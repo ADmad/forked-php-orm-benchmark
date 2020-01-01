@@ -11,7 +11,7 @@ class CakeOrmNoHydrationTestSuite extends CakeOrmTestSuite
     {
         $this->locator->get('Author', ['className' => AuthorTable::class])
             ->find()
-            ->where(['id' => $this->authors[array_rand($this->authors)]->id])
+            ->where(['id' => 1])
             ->disableResultsCasting()
             ->disableHydration()
             ->first();

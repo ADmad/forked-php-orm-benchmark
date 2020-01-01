@@ -9,9 +9,9 @@ abstract class AbstractTestSuite
 
 	protected $books = array();
 	protected $authors = array();
-	
+
 	const NB_TEST = 1000;
-	
+
 	abstract function initialize();
 	abstract function clearCache();
 	abstract function beginTransaction();
@@ -22,7 +22,7 @@ abstract class AbstractTestSuite
 	abstract function runComplexQuery($i);
 	abstract function runHydrate($i);
 	abstract function runJoinSearch($i);
-	
+
 	public function initTables()
 	{
 		try {
@@ -47,19 +47,21 @@ abstract class AbstractTestSuite
 			[last_name] VARCHAR(128)  NOT NULL,
 			[email] VARCHAR(128)
 		)');
+		$this->con->exec('INSERT INTO [author] (first_name, last_name) VALUES("John 1", "Doe 1")');
 	}
-	
+
 	public function run()
 	{
-		$t1 =  $this->runTest('runAuthorInsertion', 2000);
-		$t1 += $this->runTest('runBookInsertion', 2000);
-		$t2 = $this->runTest('runPKSearch', 500);
-		$t3 = $this->runTest('runComplexQuery', 1000);
-		$t4 = $this->runTest('runHydrate', 1000);
-		$t5 = $this->runTest('runJoinSearch', 1000);
+		// $t1 =  $this->runTest('runAuthorInsertion', 2000);
+		// $t1 += $this->runTest('runBookInsertion', 2000);
+		$t2 = $this->runTest('runPKSearch', 10);
+		// $t3 = $this->runTest('runComplexQuery', 1000);
+		// $t4 = $this->runTest('runHydrate', 1000);
+		// $t5 = $this->runTest('runJoinSearch', 1000);
+		$t1 = $t3 = $t4 = $t5 = 0;
 		echo sprintf("| %32s | %6d | %6d | %6d | %6d | %6d | ", str_replace('TestSuite', '', get_class($this)), $t1, $t2, $t3, $t4, $t5);
 	}
-	
+
 	public function runTest($methodName, $nbTest = self::NB_TEST)
 	{
 		$this->clearCache();
