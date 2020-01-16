@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "168e4fade1db14cd9d8312dbf75f2fbc",
+    "content-hash": "22bb2fdf9f8e537de8580221a830b6a2",
     "packages": [
         {
             "name": "cakephp/collection",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/collection.git",
@@ -54,16 +54,16 @@
         },
         {
             "name": "cakephp/core",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/core.git",
-                "reference": "b43ab6486b6266f4db24a1c49e49b8ab2869e449"
+                "reference": "d3c44b4997d0055c2e98132b57d239280d76e641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/core/zipball/b43ab6486b6266f4db24a1c49e49b8ab2869e449",
-                "reference": "b43ab6486b6266f4db24a1c49e49b8ab2869e449",
+                "url": "https://api.github.com/repos/cakephp/core/zipball/d3c44b4997d0055c2e98132b57d239280d76e641",
+                "reference": "d3c44b4997d0055c2e98132b57d239280d76e641",
                 "shasum": ""
             },
             "require": {
@@ -100,20 +100,20 @@
                 "core",
                 "framework"
             ],
-            "time": "2019-12-28T05:48:23+00:00"
+            "time": "2020-01-03T20:53:33+00:00"
         },
         {
             "name": "cakephp/database",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/database.git",
-                "reference": "59c52430bee9b62a3b115de27a1f65d6114517c5"
+                "reference": "1b8ddcf2548a8a2bcba4b8589f160ca5c153b3cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/database/zipball/59c52430bee9b62a3b115de27a1f65d6114517c5",
-                "reference": "59c52430bee9b62a3b115de27a1f65d6114517c5",
+                "url": "https://api.github.com/repos/cakephp/database/zipball/1b8ddcf2548a8a2bcba4b8589f160ca5c153b3cd",
+                "reference": "1b8ddcf2548a8a2bcba4b8589f160ca5c153b3cd",
                 "shasum": ""
             },
             "require": {
@@ -149,11 +149,11 @@
                 "database abstraction",
                 "pdo"
             ],
-            "time": "2019-12-29T22:35:40+00:00"
+            "time": "2020-01-07T19:34:42+00:00"
         },
         {
             "name": "cakephp/datasource",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/datasource.git",
@@ -205,7 +205,7 @@
         },
         {
             "name": "cakephp/event",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/event.git",
@@ -249,16 +249,16 @@
         },
         {
             "name": "cakephp/orm",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/orm.git",
-                "reference": "0ddc4d3f11b3f0c8c704ceeb6f26fe03e4e8b86a"
+                "reference": "ac177245771e3ab09aa6c41aeb8799534985b584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/orm/zipball/0ddc4d3f11b3f0c8c704ceeb6f26fe03e4e8b86a",
-                "reference": "0ddc4d3f11b3f0c8c704ceeb6f26fe03e4e8b86a",
+                "url": "https://api.github.com/repos/cakephp/orm/zipball/ac177245771e3ab09aa6c41aeb8799534985b584",
+                "reference": "ac177245771e3ab09aa6c41aeb8799534985b584",
                 "shasum": ""
             },
             "require": {
@@ -299,20 +299,20 @@
                 "data-mapper pattern",
                 "orm"
             ],
-            "time": "2019-12-28T05:48:23+00:00"
+            "time": "2020-01-10T01:40:08+00:00"
         },
         {
             "name": "cakephp/utility",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/utility.git",
-                "reference": "ae920be5f55a2f229ec116ec620173424b67b79a"
+                "reference": "304e7b7dd87ea82edb6ad86ecdb283c5fef478fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/utility/zipball/ae920be5f55a2f229ec116ec620173424b67b79a",
-                "reference": "ae920be5f55a2f229ec116ec620173424b67b79a",
+                "url": "https://api.github.com/repos/cakephp/utility/zipball/304e7b7dd87ea82edb6ad86ecdb283c5fef478fd",
+                "reference": "304e7b7dd87ea82edb6ad86ecdb283c5fef478fd",
                 "shasum": ""
             },
             "require": {
@@ -352,11 +352,11 @@
                 "string",
                 "utility"
             ],
-            "time": "2019-12-14T23:45:48+00:00"
+            "time": "2020-01-07T19:34:42+00:00"
         },
         {
             "name": "cakephp/validation",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/validation.git",

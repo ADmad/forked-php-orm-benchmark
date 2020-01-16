@@ -1,6 +1,6 @@
 {
     "require": {
-        "cakephp/orm": "^4.0.1"
+        "cakephp/orm": "^4.0.2"
     },
     "autoload": {
         "psr-4": {
